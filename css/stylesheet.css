@@ -1,0 +1,85 @@
+#landing{
+    padding: 0;
+}
+.section_wrapper{
+    width: 100%;
+    min-height: 60vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.section_wrapper#landingWrapper,.section_wrapper#landData{
+    min-height: 100vh;
+}
+.logoWrap{
+    /*max-height: 10%;*/
+    /*max-width: 35%;*/
+    position: absolute;
+    z-index: 9999;
+    /*left: 50%;*/
+    top: 50%;
+    transform: translateY(-50%);
+    /*transform: translate(-50%,-50%);*/
+}
+.caretWrap{
+    margin: 5px;
+    position: absolute;
+    width: 50px;
+    height:50px;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,50%);
+}
+.caretWrap :hover{
+    transition: transform 1s ease-out;
+    transform: translateY(-50%);
+}
+.button-collapse i{
+    color:#689f38;
+}
+p,a{
+    font-family: 'Montserrat', sans-serif;
+}
+.overlay,.overlay2,#landData{
+    background-color: rgba(8,2,3,0.41);
+    flex-grow: 1;
+}
+.card-panel{
+    padding: 0;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-panel h4{
+    color: white;
+    width: 100%;
+}
+.overlay:hover{
+    transition: backgroung-color 0.3s ease-in;
+    background-color: rgba(106, 188, 0, 0.62);
+}
+.slide-arrow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+#left-scroll,#right-scroll{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+#left-scroll{
+    transform: translateX(-50%);
+}
+.carousel-item{
+    background-size: cover;
+    background: no-repeat bottom;
+    display: flex !important;
+    flex-direction: column;
+}

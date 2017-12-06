@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RoverX</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="../css/materialize.min.css">
+    <link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="../css/commons.css">
+
+</head>
+<body>
+<div id="landingWrapper" style="background-color: #212121;">
+    <div>
+        <div id="head"></div>
+        <div style="min-height: 150px;"><h1 class="white-text center-align" style="line-height: 150px;">Our Sponsors</h1></div>
+    </div>
+</div>
+
+    <!--<h2 class="center-align grey-text text-darken-2">Title Sponsors</h2>-->
+    <div class="section-wrapper">
+        <div class="container">
+            <div class="row">
+                <div style="margin-top: 30px;" class="col m4 s6"><img title="Reliance industries limited" src="http://res.cloudinary.com/team-roverx/image/upload/v1493459179/sponsors/1280px-Reliance_Industries_Logo.svg.png" class="responsive-img" style="max-height: 100px;" alt=""></div>
+                <div style="margin-top: 30px;" class="col m4 s6"><img title="Dassault Systemes" src="http://res.cloudinary.com/team-roverx/image/upload/v1493459831/sponsors/16684216_1747746638874518_4336244368156559187_n.jpg" style="max-height: 100px;" alt=""></div>
+                <div style="margin-top: 30px;" class="col m4 s6"><img title="Magold Lasers" src="http://res.cloudinary.com/team-roverx/image/upload/v1493459831/sponsors/17309674_1764218003894048_4139860703504324117_n.jpg" class="responsive-img" style="max-height: 100px;" alt=""></div>
+            </div>
+            <div class="row">
+                <div style="margin-top: 30px;" class="col m4 s12 push-m2"><img title="Vigyan Science foundation" src="http://res.cloudinary.com/team-roverx/image/upload/v1493459292/sponsors/Capture3.png" class="responsive-img" style="max-height: 100px;" alt=""></div>
+                <div style="margin-top: 30px;" class="col m4 s12 push-m2"><img title="John Energy Ltd" src="http://res.cloudinary.com/team-roverx/image/upload/v1493459178/sponsors/client-logo8.jpg" class="responsive-img" style="max-height: 100px;" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <!--<h2 class="center-align grey-text text-darken-2">Gold Sponsors</h2>-->
+    <div class="section-wrapper">
+        <div class="container">
+            <div class="row">
+                <div style="margin-top: 30px;" class="col m4 s12 push-m2"><img title="GTC Oilfield Services" src="http://res.cloudinary.com/team-roverx/image/upload/v1493459166/sponsors/logo.png" class="responsive-img" style="max-height: 100px;" alt=""></div>
+                <div style="margin-top: 30px;" class="col m4 s12 push-m2"><img title="PCTS" src="http://res.cloudinary.com/team-roverx/image/upload/v1493459178/sponsors/pcts.jpg" class="responsive-img" style="max-height: 100px;" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <!--<h2 class="center-align grey-text text-darken-2">Silver Sponsors</h2>
+    <div class="section-wrapper">
+        <div class="container">
+            <div class="row">
+                <div style="margin-top: 30px;" class="col m4 s12 push-m2"><img title="IEEE COMPUTER SOCIETY" src="../Assets/ieee_cs_logo.svg" class="responsive-img" style="max-height: 100px;" alt=""></div>
+                <div style="margin-top: 30px;" class="col m4 s12 push-m2"><img title="IEEE COMPUTER SOCIETY" src="../Assets/ieee_cs_logo.svg" class="responsive-img" style="max-height: 100px;" alt=""></div>
+            </div>
+        </div>
+    </div>
+    &lt;!&ndash;<h2 class="center-align grey-text text-darken-2">Bronze Sponsors</h2>&ndash;&gt;
+    <div class="section-wrapper">
+        <div class="container">
+            <div class="row">
+                <div style="margin-top: 30px;" class="col m4 s12 push-m2"><img title="IEEE COMPUTER SOCIETY" src="../Assets/ieee_cs_logo.svg" class="responsive-img" style="max-height: 100px;" alt=""></div>
+                <div style="margin-top: 30px;" class="col m4 s12 push-m2"><img title="IEEE COMPUTER SOCIETY" src="../Assets/ieee_cs_logo.svg" class="responsive-img" style="max-height: 100px;" alt=""></div>
+            </div>
+        </div>
+    </div>-->
+    <div id="footer"></div>
+    <script src="../javascript/jquery.js"></script>
+    <script src="../javascript/materialize.min.js"></script>
+    <script src="../javascript/inc.js"></script>
+    <script src="picturehover.min.js"></script>
+    <script src="../javascript/smooth-scroll.min.js"></script>
+    <script src="../javascript/scrollTop.js"></script>
+    <script src="script.js"></script>
+    <script>
+        var side=function () {
+            $('.button-collapse').sideNav({
+                    menuWidth: 300, // Default is 300
+                    edge: 'right', // Choose the horizontal origin
+                    closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+                    draggable: true // Choose whether you can drag to open on touch screens
+                }
+            );
+            $('.dropdown-button').dropdown();
+        };
+        $(function () {
+            smoothScroll.init();
+            $('.row').picturehover();
+            $('#head').inc('../navbar/navbar.html',null,side);
+            $('#footer').inc('../footer/footer.html');
+        });
+    </script>
+</body>
+</html>

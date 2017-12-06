@@ -1,0 +1,56 @@
+.section_wrapper{
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.card .card-content{
+    padding-bottom: 0;
+}
+#gallery .row .col,.panel2{
+    padding: 0;
+    margin: 0;
+}
+.panel1 .card-panel{
+    height: 40vh;
+    padding: 0;
+    margin: 0;
+}
+.panel2 .card-panel{
+    height: 20vh;
+    padding: 0;
+    margin: 0;
+}
+.button-collapse i{
+    color:#689f38;
+}
+.button-collapse i{
+    color:#689f38;
+}
+#catPanel .btn-flat{
+    width: 100%;
+}
+#catPanel .btn-flat.clicked{
+    background-color: black;
+    color: #689f38;
+}
+#catPanel .row{
+    margin: 0;
+}
+#catPanel{
+    padding: 0;
+}
+.btn-flat .fa.fa-caret-left{
+    font-size: 2em;
+    position: absolute;
+    z-index: 15;
+    right: 0;
+}
+.btn-flat.btn{
+    padding: 0;
+    position: relative;
+}
+.caret{
+    visibility: hidden;
+}

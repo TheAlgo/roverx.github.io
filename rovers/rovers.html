@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RoverX</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="../css/materialize.min.css">
+    <link rel="stylesheet" href="../css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="../css/commons.css">
+</head>
+<body>
+<div id="landingWrapper" style="background-color: #212121;">
+    <div>
+        <div id="head"></div>
+        <div style="height: 150px;"><h1 class="white-text center-align" style="line-height: 150px;">Rovers</h1></div>
+    </div>
+</div>
+
+
+    <div class="section-wrapper" id="gallery">
+        <div class="row" style="margin-top: 30px;">
+            <div class="col m3 s12">
+                <div class="row" style="margin-top: 15px;">
+                    <div class="col s10 push-s1">
+                        <div class="card-panel" id="catPanel">
+                            <div class="row"><a id="r1" class="btn btn-flat clicked">Rover 2016<i class="fa fa-caret-left right" aria-hidden="true"></i></a></div>
+                            <div class="row"><a id="r2" class="btn btn-flat">Rover 2015<i class="fa fa-caret-left caret right" aria-hidden="true"></i></a></div>
+                            <!--<div class="row"><a id="r3" class="btn btn-flat">Rover 3<i class="fa fa-caret-left caret right" aria-hidden="true"></i></a></div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="r1_c" class="col m8 s12 cont">
+                <div class="row card-panel" style="padding: 0">
+                    <div class="card">
+                        <div class="col m6 s12" style="flex-grow: 1">
+
+                            <div class="card-image">
+                                <img class="materialboxed" src="http://res.cloudinary.com/team-roverx/image/upload/v1504630220/rover2016_2_fffgkg.jpg">
+                            </div>
+
+                        </div>
+                        <div class="col m6 s12" style="flex-grow: 1">
+
+                            <div class="card-content" style="text-align: justify;">
+                                <h5>Enigma MK2</h5>
+                                <br>
+                                <p>
+                                    The latest edition of the Mars rover, named Enigma MK2, was designed and fabricated by Team RoverX for ERC 2016, Poland. It was well monitored in terms of safety, scalability and reliability. The Rover also provided wireless capability to establish a reliable connection with the base station. It also had GPS technology embedded in it to display its current location. In addition to these, it also featured two manipulators and other electrical housings mounted on an aluminium frame. The rover employed a total of 4 cameras mounted at different positions in order to aid rover operation during various tasks with ease.  It was also equipped with a custom-made safety system which is designed to ensure the safety for the rover in emergency situations. The complete assembly weighed 49kgs.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="r2_c" class="col m8 s12 cont hide">
+                <div class="row card-panel" style="padding: 0">
+                    <div class="card">
+                        <div class="col m6 s12" style="flex-grow: 1">
+
+                            <div class="card-image">
+                              <img class="materialboxed" src="http://res.cloudinary.com/team-roverx/image/upload/v1504630220/rover2015_2_iu71p6.jpg">
+                            </div>
+
+                        </div>
+                        <div class="col m6 s12" style="flex-grow: 1">
+
+                            <div class="card-content" style="text-align: justify;">
+                                <h5>Enigma MK1</h5>
+                                <br>
+                                <p>
+                                    The Rover, Enigma MK1, marked our team's debut in representing our college and country in international competitions such as the ERC, Poland. In doing so, it gathered huge appreciation from other teams, besides winning several accolades and setting the benchmark for our future rovers. This rover featured 3 independent rocker suspension systems, with the maximum angle of rotation of its rocker being 45°, and a good ground clearance of 100mm. It could easily be controlled from any personal computer (connected to the same Wi-Fi network) using a Secure Shell (SSH), without the need for any extra software and video feeds. All its features made the Rover prepared to perform its required Science, Blind Terrain Traverse, Maintenance and Assistance tasks
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer"></div>
+    <script src="../javascript/jquery.js"></script>
+    <script src="../javascript/materialize.min.js"></script>
+    <script src="../javascript/inc.js"></script>
+    <script src="../javascript/smooth-scroll.min.js"></script>
+    <script src="../javascript/scrollTop.js"></script>
+    <script src="script.js"></script>
+    <script>
+        var side=function () {
+            $('.button-collapse').sideNav({
+                    menuWidth: 300, // Default is 300
+                    edge: 'right', // Choose the horizontal origin
+                    closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+                    draggable: true // Choose whether you can drag to open on touch screens
+                }
+            );
+            $('.dropdown-button').dropdown();
+        };
+        $(function () {
+            smoothScroll.init();
+            $('#head').inc('../navbar/navbar.html',null ,side());
+            $('#footer').inc('../footer/footer.html');
+        });
+    </script>
+</body>
+</html>

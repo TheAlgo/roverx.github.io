@@ -1,0 +1,105 @@
+
+.section_wrapper{
+    width: 100%;
+    min-height: 100vh;
+}
+#overlayWrap{
+    width: 100%;
+    flex-grow: 1;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+#overlay{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(106, 188, 0);
+    opacity: 0.62;
+    flex-grow: 1;
+    position: relative;
+}
+#overlayArrow{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 43.3px 25px 0;
+    border-color: transparent #6bbc00 transparent transparent;
+    position: absolute;
+    bottom: 15px;
+    transform: translateX(-100%);
+}
+.button-collapse i{
+    color:#689f38;
+}
+.section_wrapper p,.section_wrapper a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.button-collapse i{
+    color:#689f38;
+}
+#supportWrap{
+    min-height: 75vh;
+    /*background: url("../Assets/support.jpg") no-repeat;*/
+    background-position-x: 0;
+    background-position-y: 80%;
+    background-size: cover;
+    display: flex;
+    flex-direction:column;
+}
+#support{
+    /*background-color: rgba(8, 2, 3, 0.71);*/
+    flex-grow: 1;
+    color: black;
+}
+#costBlack{
+    flex-grow: 1;
+    background-color: rgba(8, 2, 3, 0.71);
+    display: flex;
+}
+#support p,#support h5{
+    color: black;
+}
+#contact{
+    background-color: #272727;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #feffff;
+}
+#submit{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border: solid 2px #212121;
+    margin: 0 auto;
+    color:#689f38;
+}
+#submit:hover{
+    background-color: #212121;
+}
+#costWrap{
+    min-height: 60vh;
+    background: url("../Assets/report.png") no-repeat;
+    background-position-x: 0;
+    background-position-y: 80%;
+    background-size: cover;
+    display: flex;
+    flex-direction:column;
+}
+#costGreen{
+    flex-grow: 1;
+    background-color: rgba(104, 159, 56, 0.31);
+}
+.hover-over{
+  background: rgba(106,188,0,0.5)!important;
+  z-index: -1;
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 600px){
+  #brochure img{
+    width: 80%!important;
+  }
+}

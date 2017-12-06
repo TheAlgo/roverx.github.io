@@ -1,0 +1,34 @@
+.section_wrapper{
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.button-collapse i{
+    color:#689f38;
+}
+.button-collapse i{
+    color:#689f38;
+}
+.card .card-reveal{
+    background-color: rgba(241,242,242,0.41);
+}
+.card {
+    min-height: 370px;
+    max-height: 370px;
+}
+.card .card-image{
+    /*min-height: 300px !important;*/
+    max-height: none !important;
+    height: 250px !important;
+}
+.card-reveal{
+  display: none!important;
+}
+.card-content .greenText{
+  font-size: 18px;
+}
+.card-content .grey-text{
+  font-size: 18px;
+}

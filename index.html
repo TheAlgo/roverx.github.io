@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RoverX</title>
+    <link rel="icon" href="http://res.cloudinary.com/team-roverx/image/upload/v1504630253/x_logo_fyi5oc.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.min.css">
+    <link rel="stylesheet" href="css/commons.css">
+
+</head>
+<body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <ul id="team" class="dropdown-content"  style="margin-top: 65px;">
+        <li><a href="team/team.html">Current Team</a></li>
+        <li><a href="team/team2016.html">Team 2016</a></li>
+        <li><a href="team/team2015.html">Team 2015</a></li>
+    </ul>
+    <ul id="slide-out" style="width: 45vw;" class="side-nav collapsible">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="rovers/rovers.html">Rover</a></li>
+        <li><a href="competitions/competitions.html">Competitions</a></li>
+        <!--<li><a href="team/team.html">Team</a></li>-->
+        <li>
+            <a class="collapsible-header" href="#!" data-activates="team">Team<i class="fa fa-caret-down right"></i></a>
+            <div class="collapsible-body">
+                <ul>
+                    <li><a href="team/team.html">Team 1</a></li>
+                    <li><a href="team/team.html">Team 2</a></li>
+                    <li><a href="team/team.html">Team 3</a></li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="media/media.html">Media</a></li>
+        <li><a href="sponsors/sponsors.html">Our Sponsors</a></li>
+        <li><a href="contact/contact.html">Support us</a></li>
+        <li><a href="contact/contact.html#contactFocus">Contact us</a></li>
+    </ul>
+
+    <div class="section_wrapper" id="landingWrapper" style="">
+        <div class="section" id="landing">
+            <div class="slider fullscreen">
+                <ul class="slides">
+                    <li>
+                        <img src="http://res.cloudinary.com/team-roverx/image/upload/v1504630256/1_ajfxky.jpg"> <!-- random image -->
+                    </li>
+                    <li>
+                        <img src="http://res.cloudinary.com/team-roverx/image/upload/v1504630265/2_ixsota.jpg"> <!-- random image -->
+                    </li>
+                    <li>
+                        <img src="http://res.cloudinary.com/team-roverx/image/upload/v1504630257/3_igsvix.jpg"> <!-- random image -->
+                    </li>
+                    <li>
+                        <img src="http://res.cloudinary.com/team-roverx/image/upload/v1504630241/4_wbikms.jpg"> <!-- random image -->
+                    </li>
+                    <li>
+                        <img src="http://res.cloudinary.com/team-roverx/image/upload/v1504630261/5_xipdwk.jpg"> <!-- random image -->
+                    </li>
+                    <li>
+                        <img src="http://res.cloudinary.com/team-roverx/image/upload/v1504630247/6_efheya.jpg"> <!-- random image -->
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="section_wrapper" id="landData" style="z-index: 500">
+            <!--<div style="height: 35vh;position: relative;" class="hide-on-large-only">-->
+                <!---->
+            <!--</div>-->
+            <!--<div style="position: absolute;right: 20px;"></div>-->
+            <div class="nav-wrapper navbar-fixed" >
+                <nav>
+                    <a href="#" class="brand-logo"><img src="Assets/roverX.svg" class="responsive-img" alt=""></a>
+                    <a href="#" data-activates="slide-out" class="button-collapse right"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="rovers/rovers.html">Rover</a></li>
+                        <li><a href="competitions/competitions.html">Competitions</a></li>
+                        <li><a class="dropdown-button" href="#!" data-activates="team">Team  <i class="fa fa-caret-down"></i></a></li>
+                        <li><a href="media/media.html">Media</a></li>
+                        <li><a href="sponsors/sponsors.html">Our Sponsors</a></li>
+                        <li><a href="contact/contact.html">Support us</a></li>
+                        <li><a href="contact/contact.html#contactFocus">Contact us</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="logoWrap" style="width: 100%;z-index: 501">
+                <div class="container">
+                    <div class="row">
+                        <div>
+                            <h2 class="center-align"><span class="white-text">EXPLORE BEYOND THE <span id="type" class="greenText">POSSIBLE</span></span></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="caretWrap">
+                <a data-scroll href="#about"><img src="Assets/caret.svg" class="responsive-img" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <div style="margin-top: 35px;" class="section_wrapper row">
+        <div class="col l9 m8 s12" id="about">
+            <div><h5>About</h5><br><h3 style="margin-top: -20px;">Rover <span style="margin-left: -10px;" class="greenText">X</span></h3></div>
+            <div style="margin-top: 35px;text-align: justify;" class="row container">
+            <p>Team RoverX is a group of young, enthusiastic individuals who build Mars rovers by the year to display and compete at various platforms. A part of Creation Labs VIT University, we seek to bring our ideas to life by innovating and working hard on our projects. The awards and accolades we've achieved are only proof that we've delivered consistently.</p>
+            <br>
+            <p>Our prototype is used to compete in different international competitions including URC (University Rover challenge), ERC (European Rover Challenge) and UKURC (The UK’s University Rover Challenge). These competitions provide a platform for student-run teams from all over the globe to showcase their respective rovers.</p>
+            <br>
+            <p>Working on our rover exposes us to various other practical and theoretical disciplines of engineering, thereby providing depth to our knowledge. As a team, we begin to understand the work culture in industries and problem-solving in real-time, while following a timeline based approach. These are merely stepping stones to the engineering world we all aspire to be a part of.</p>
+            <br>
+            </div>
+        </div>
+        <div class="col l3 m4 s12 hi" id="fb">
+            <div class="container" style="width: 100%">
+                <div class="fb-page" data-href="https://www.facebook.com/teamroverx/" data-height="250" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/teamroverx/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/teamroverx/">Team RoverX</a></blockquote></div>
+                <a style="margin-top: 10px;" class="waves-effect waves-light btn-flat"><p><i class="fa fa-instagram" aria-hidden="true"></i>  Follow us on Insta !</p></a>
+            </div>
+        </div>
+    </div>
+    <div style="margin-top: 35px;" class="section_wrapper row container">
+        <div>
+            <h4><span class="greenText">A</span>chievements</h4>
+        </div>
+        <div class="container" style="width: 80%;margin-left: 19%;">
+        <div class="col m8 push-m2 s12 slider8" style="position: absolute;height: 100px;">
+          <div class="slide">
+            <div class="row">
+                <div class="col m6 s12 pull-l2 pull-m2">
+                    <img class="responsive-img" src="http://res.cloudinary.com/team-roverx/image/upload/v1504630245/7_fok3mg.jpg">
+                </div>
+                <div class="col m6 s12 pull-m2 pull-l2 achievement-text">
+                  <div>
+                    <h5>2016</h5>
+                    <br>
+                    <p>
+                      <ul>
+                        <li style="list-style-type: none!important">In European Rover Challenge 2016 we were placed </li>
+                        <li><b>12th</b> overall</li>
+                        <li><b>1st</b> in Asia</li>
+                        <li><b>2nd</b> in technical presentation</li>
+                      </ul>
+                    </p>
+                  </div>
+                </div>
+            </div>
+          </div>
+        <div class=" slide">
+              <div class="row">
+              <div class="col m6 s12 pull-m2 pull-l2">
+                  <img class="responsive-img" src="http://res.cloudinary.com/team-roverx/image/upload/v1504630248/8_qrohho.jpg">
+              </div>
+              <div class="col m6 s12 pull-m2 pull-l2 achievement-text">
+                <div>
+                  <h5>2015</h5>
+                  <br>
+                  <p>
+                    <ul>
+                      <li style="list-style-type: none!important">In European Rover Challenge 2015 we were placed </li>
+                      <li><b>13th</b> overall</li>
+                      <li><b>1st</b> in Asia Pacific</li>
+                      <li><b>2nd</b> in Rover design</li>
+                      <li><b>4th</b> in technical specification</li>
+                      <li>Best project award in VIT</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+        </div>
+      </div>
+      <div class=" slide">
+          <div class="row">
+          <div class="col m6 s12 pull-m2 pull-l2">
+              <img class="responsive-img" src="http://res.cloudinary.com/team-roverx/image/upload/v1505314569/9_yhwidi_vkttne.jpg" width="560px">
+          </div>
+          <div class="col m6 s12 pull-m2 pull-l2 achievement-text">
+            <div>
+              <h5>Engineers Days</h5>
+              <br>
+              <p>
+                <ul>
+                  <li style="list-style-type: none!important;text-align: justify;">
+                    Celebrating #EngineersDay, VIT hosted a project exhibition. All the projects were a visual treat and a source of pride for the university's students. We Our team bagged the Sri M Visvesvaraya Award for being the best project in the university in terms of research and innovation.
+                  </li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+        </div>
+    </div>
+
+
+    <!--            Seccond Crousal                  -->
+
+
+    <div style="margin-top: 35px;" class="section_wrapper row">
+        <div>
+            <h4><span class="greenText">R</span>ecent <span class="greenText">A</span>ctivities</h4>
+        </div>
+        <div class="container">
+            <div class="slider8">
+                <div class=" slide">
+                  <div class="row">
+                  <div class="col m6 s12">
+                      <img class="responsive-img" src="http://res.cloudinary.com/team-roverx/image/upload/v1493942517/recent%20activities/Capture.png">
+                  </div>
+                  <div class="col m6 s12" style="text-align: justify;">
+                      <h5>GCASTM17</h5>
+                      <br>
+                      <p>
+                        In January 2017, VIT organised Global Conference and a Student Project Competition seminar in collaboration with various international universities including Purdue University, Harvard University, Oxford University and many more. This international collaboration provided sufficient commitment from the authorities, paving the way for enhanced cooperation. The conference covered a wide spectrum of topics, from sciences to engineering and technology, and from management to law. It will also feature research paper presentations, workshops, researcher conclave, and poster presentations.
+                        Our project was appreciated by all the members of the review panel and we were given Special Mention award for this.
+                      </p>
+                  </div>
+                </div>
+              </div>
+              <div class=" slide">
+                <div class="row">
+                  <div class="col m6 s12">
+                      <img class="responsive-img" src="http://res.cloudinary.com/team-roverx/image/upload/c_limit,h_252,w_476/v1493942518/recent%20activities/VIT_PURDUE_Hack.jpg">
+                    </div>
+                  <div class="col m6 s12">
+                    <div style="text-align: justify;">
+                      <h5>Purdue-VIT Hackathon</h5>
+                      <br>
+                      <p>
+                        A delegation from Purdue University, consisting of 4 faculty members and 26 students, visited VIT University, Vellore. The visiting students, along with members of our team and the Creation Labs at VIT, participated in a mini-hackathon wherein they worked together on existing projects at Creation Labs and developed innovative solutions for the same. The Pro Vice-Chancellor graced the occasion and expressed his vision to forge a long-lasting partnership between Purdue University and VIT.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=" slide">
+                <div class="row">
+                  <div class="col m6 s12">
+                    <div>
+                      <img class="responsive-img" src="http://res.cloudinary.com/team-roverx/image/upload/c_limit,h_252,w_476/v1493942515/recent%20activities/CLAB_Expo.jpg">
+                    </div>
+                  </div>
+                  <div class="col m6 s12">
+                    <div style="text-align: justify;">
+                      <h5>Project EXPO 2017</h5>
+                      <br>
+                      <p>
+                        The Creation Labs hosted the "Project Expo" featuring internal ongoing projects, exclusively for faculties. Our project was greatly appreciated by all the members and the faculties of the university.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=" slide">
+                <div class="row">
+                  <div class="col m6 s12">
+                    <div>
+                      <img class="responsive-img" src="http://res.cloudinary.com/team-roverx/image/upload/c_limit,h_252,w_476/v1493942509/recent%20activities/Picture20.png">
+                    </div>
+                  </div>
+                  <div class="col m6 s12">
+                    <div style="text-align: justify;">
+                      <h5>Enigma Mk2.0 Launch</h5>
+                      <br>
+                      <p>
+                        We showcased the Enigma Mk2.0 for the very first time during our launch event which attracted a huge enthusiastic crowd. This opened the doors for them to explore the lengths of the world, to dream the unthinkable, and to discover.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div></div>
+        </div>
+    </div>
+    <div class="footer_wrapper row" >
+        <div class="col m4 s12 push-m8" style="padding: 20px 10px 0;font-size: 80%;">
+            <!--style="background-size: cover;background: url('Assets/Flogo.svg') no-repeat bottom;"-->
+            <div id="contact_footer" class=" white-text" >
+                <h5 style="margin: 0;">Contact us !</h5>
+                <div style="width: 100%;height: 1px;"><span class="divider right" style="width: 100%;"></span></div>
+                <br>
+                <p><i class="fa fa-map-marker"></i> Creation Labs,<br> VIT University, Vellore</p>
+                <p>Tamil Nadu</p>
+                <a href="mailto:hello@teamroverx.com">hello@teamroverx.com</a>
+                <p><i class="fa fa-mobile-phone"></i>  9789600819</p>
+            </div>
+        </div>
+        <div class="col m4 s12 pull-m4" style="padding: 20px 10px 0;">
+
+            <div class="row footerMember"><img style="width: 170px;" src="Assets/vit_logo.svg" class="responsive-img" alt=""></div>
+             <div class="row footerMember"><img style="width: 250px; margin-top: 50px;" src="Assets/Logo.svg" class="responsive-img" alt=""></div>
+        </div>
+        <div class="col m4 s12 pull-m4" style="padding: 20px 10px 0;">
+            <div class="row center-align" style="margin-top: 50px;">
+                <a class="icon-link round facebook fill" href="https://www.facebook.com/teamroverx/" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a class="icon-link round linkedin fill"><i class="fa fa-linkedin"></i></a>
+                <a class="icon-link round twitter fill"><i class="fa fa-twitter"></i></a>
+                <a class="icon-link round google-plus fill"><i class="fa fa-google-plus"></i></a>
+                <a class="icon-link round youtube fill" href="https://www.youtube.com/watch?v=VZmiHxZnjS8&list=PL8bdzR0O8oZOt20PVMJitdnqor5xuezgD" target="_blank"><i class="fa fa-youtube"></i></a>
+            </div>
+            <div class="row center-align" style="margin-top: 100px;">
+                <img style="width: 200px;" src="http://res.cloudinary.com/team-roverx/image/upload/v1504630251/Clabslogo_drbper.jpg" class="responsive-img" alt="">
+            </div>
+        </div>
+        <a data-scroll id="Totop" href="#landingWrapper" class="scale-transition scale-out btn-floating tooltipped btn-large waves-effect waves-light white" data-position="left" data-delay="50" data-tooltip="Go to top" style="position: fixed;bottom: 5px;right: 5px;z-index: 900"><i style="color: #689f38;" class="fa fa-caret-up"></i></a>
+    </div>
+    <style>
+        @media screen and (min-width: 1170px) {
+            .footer_wrapper {
+                height: 280px;
+            }
+        }
+    </style>
+    <script src="javascript/jquery.js"></script>
+    <script src="javascript/materialize.min.js"></script>
+    <script src="javascript/smooth-scroll.min.js"></script>
+    <script src="javascript/jquery.bxslider.min.js"></script>
+    <script src="javascript/javascript.js"></script>
+    <script src="javascript/scrollTop.js"></script>
+    <script src="javascript/jquery.typeout.min.js"></script>
+    <script>
+        $('#type').typeOut({
+            delay : 90, // the delay between display of characters
+            preserve : true, // Maintains HTML within the element
+            marker : '|' // the marker that is placed before the typed text
+        });
+        $(function () {
+            smoothScroll.init();
+            $('.button-collapse').sideNav({
+                    menuWidth: 300, // Default is 300
+                    edge: 'right', // Choose the horizontal origin
+                    closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+                    draggable: true // Choose whether you can drag to open on touch screens
+                }
+            );
+        });
+        $('#right-scroll').click(function () {
+            $('.carousel').carousel('next');
+        });
+        $('#left-scroll').click(function () {
+            $('.carousel').carousel('prev');
+        });
+        $('.slider').slider({full_width: true,indicators:false,interval: 10000});
+        $('.carousel.carousel-slider').carousel({fullWidth: true,indicators:false});
+        autoplay();
+        function autoplay() {
+            $('.carousel').carousel('next');
+            setTimeout(autoplay, 4500);
+        }
+    </script>
+	<!-- Website optimized by Jishu Dohare -->
+</body>
+</html>
+<style>
+  #contact_footer{
+    font-size: 150%!important;
+  }
+  .slide{
+    min-height: 40vh;
+    padding: 0;
+    margin: 0;
+  }
+  .achievement-text div{
+    padding-top: 10%;
+  }
+  #achieve ul li{
+    font-size: 150%;
+    margin-left: 5%;
+    list-style-type: disc!important;
+  }
+</style>
+<style>
+    .icon-link {
+        width: 60px;
+        height: 60px;
+        background-color: #666;
+        line-height: 60px;
+        text-align: center;
+        vertical-align: middle;
+        display: inline-block;
+        cursor: pointer;
+        outline: none;
+        margin: 5px;
+        box-sizing: content-box;
+    }
+    .icon-link.fill.facebook {
+        background-color: #3b5998;
+    }
+    .icon-link.fill.facebook:hover {
+        background-color: #fff;
+    }
+    .icon-link.fill.facebook:hover .fa-facebook {
+        color: #3b5998;
+        -webkit-transition: color 150ms ease-in-out;
+        transition: color 150ms ease-in-out;
+    }
+    .icon-link.fill.linkedin {
+        background-color: #007bb6;
+    }
+    .icon-link.fill.linkedin:hover {
+        background-color: #fff;
+    }
+    .icon-link.fill.linkedin:hover .fa-linkedin {
+        color: #007bb6;
+        -webkit-transition: color 150ms ease-in-out;
+        transition: color 150ms ease-in-out;
+    }
+    .icon-link.fill.twitter {
+        background-color: #00aced;
+    }
+    .icon-link.fill.twitter:hover {
+        background-color: #fff;
+    }
+    .icon-link.fill.twitter:hover .fa-twitter {
+        color: #00aced;
+        -webkit-transition: color 150ms ease-in-out;
+        transition: color 150ms ease-in-out;
+    }
+    .icon-link.fill.google-plus {
+        background-color: #dd4b39;
+    }
+    .icon-link.fill.google-plus:hover {
+        background-color: #fff;
+    }
+    .icon-link.fill.google-plus:hover .fa-google-plus {
+        color: #dd4b39;
+        -webkit-transition: color 150ms ease-in-out;
+        transition: color 150ms ease-in-out;
+    }
+    .icon-link.fill.youtube {
+        background-color: #df1c31;
+    }
+    .icon-link.fill.youtube:hover {
+        background-color: #fff;
+    }
+    .icon-link.fill.youtube:hover .fa-youtube {
+        color: #df1c31;
+        -webkit-transition: color 150ms ease-in-out;
+        transition: color 150ms ease-in-out;
+    }
+    .icon-link.brand {
+        background-color: #fff;
+    }
+    .icon-link.brand .fa {
+        color: #006FC2;
+    }
+    .icon-link.round {
+        border-radius: 50%;
+    }
+    .icon-link.round-corner {
+        border-radius: 5px;
+    }
+    .icon-link:hover {
+        -webkit-transition: background-color 150ms ease-in-out;
+        transition: background-color 150ms ease-in-out;
+        height: 56px;
+        line-height: 56px;
+        width: 56px;
+        background-color: #fff;
+    }
+    .icon-link:hover.facebook {
+        border: 2px solid #3b5998;
+    }
+    .icon-link:hover.tumblr {
+        border: 2px solid #32506d;
+    }
+    .icon-link:hover.linkedin {
+        border: 2px solid #007bb6;
+    }
+    .icon-link:hover.twitter {
+        border: 2px solid #00aced;
+    }
+    .icon-link:hover.google-plus {
+        border: 2px solid #dd4b39;
+    }
+    .icon-link:hover.youtube {
+        border: 2px solid #df1c31;
+    }
+    .icon-link:hover .fa {
+        line-height: 56px;
+    }
+    .icon-link:hover .fa-facebook {
+        color: #3b5998;
+        -webkit-transition: color 150ms ease-in-out;
+        transition: color 150ms ease-in-out;
+    }
+    .icon-link:hover .fa-linkedin {
+        color: #007bb6;
+        -webkit-transition: color 150ms ease-in-out;
+        transition: color 150ms ease-in-out;
+    }
+    .icon-link:hover .fa-twitter {
+        color: #00aced;
+        -webkit-transition: color 150ms ease-in-out;
+        transition: color 150ms ease-in-out;
+    }
+    .icon-link:hover .fa-google-plus {
+        color: #dd4b39;
+        -webkit-transition: color 150ms ease-in-out;
+        transition: color 150ms ease-in-out;
+    }
+    .icon-link:hover .fa-youtube {
+        color: #df1c31;
+        -webkit-transition: color 150ms ease-in-out;
+        transition: color 150ms ease-in-out;
+    }
+    .icon-link .fa {
+        color: #fff;
+        line-height: 60px;
+        font-size: 36px;
+    }
+
+    .brand-icons {
+        background-color: #ddd;
+        padding: 10px 0;
+    }
+
+</style>

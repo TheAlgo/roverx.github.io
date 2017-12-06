@@ -1,0 +1,129 @@
+.section_wrapper{
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#landingWrapper.section_wrapper{
+    height: 400px;
+}
+.flex-item{
+    flex-basis: auto;
+}
+#overlayWrap{
+    width: 100%;
+    flex-grow: 1;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+#overlay{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(106, 188, 0);
+    opacity: 0.62;
+    flex-grow: 1;
+    position: relative;
+}
+#overlayArrow{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 43.3px 25px 0;
+    border-color: transparent #6bbc00 transparent transparent;
+    position: absolute;
+    bottom: 15px;
+    transform: translateX(-100%);
+}
+#gallery .row .col,.panel2{
+    padding: 0;
+    margin: 0;
+}
+.panel1 .card-panel{
+    height: 40vh;
+    padding: 0;
+    margin: 0;
+}
+.panel2 .card-panel{
+    height: 20vh;
+    padding: 0;
+    margin: 0;
+}
+.button-collapse i{
+    color:#689f38;
+}
+.section_wrapper p,.section_wrapper a{
+    font-family: 'Montserrat', sans-serif;
+}
+a.btn-flat{
+    font-family: 'Montserrat Semi-Bold', sans-serif;
+
+    font-size: large;
+}
+.button-collapse i{
+    color:#689f38;
+}
+h5{
+    width: 100%;
+}
+#catPanel .btn-flat{
+    width: 100%;
+}
+#catPanel .btn-flat.clicked{
+    background-color: black;
+    color: #689f38;
+}
+#catPanel .row{
+    margin: 0;
+}
+#catPanel{
+    padding: 0;
+}
+.btn-flat .fa.fa-caret-left{
+    font-size: 2em;
+    position: absolute;
+    z-index: 15;
+    right: 0;
+}
+.btn-flat.btn{
+    padding: 0;
+    position: relative;
+}
+.caret{
+    visibility: hidden;
+}
+.green-text{
+  color: #6abc00;
+}
+#competitions{
+  padding: 2%;
+}
+#competitions h1{
+  font-size: 3rem;
+}
+.competitions-list{
+  padding: 5% 10%;
+}
+.competition-left{
+  padding: 2%!important;
+}
+#competitions .competition h5 .green-text{
+  /*font-size: 3.2rem;*/
+}
+.competition-left h5{
+  padding-top: 15%;
+  font-size: 180%!important;
+}
+.competition{
+  box-shadow: -2px 5px 15px rgba(0,0,0,0.5);
+}
+#competitions .competition .competition-right{
+  /*background: url('../Assets/competitions_back.png');*/
+  background: black;
+  min-height: 25vh;
+  color: white;
+  background-size: cover;
+  text-align: justify;
+  padding: 5%;
+}
